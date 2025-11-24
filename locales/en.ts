@@ -5,12 +5,6 @@ export const en = {
   app: {
     description: 'Transform Your Photos with the Power of AI - Welcome Hype! Your complete photo editor designed to enhance your product photo quality with the magic of AI.',
   },
-  apiKey: {
-    title: "Unlock Professional Studio",
-    description: "To use the advanced Gemini 3 Pro models for high-quality image generation, please select a paid API key.",
-    button: "Select API Key",
-    billingLink: "Learn more about billing",
-  },
   footer: {
     back: 'Back',
     continue: 'Continue',

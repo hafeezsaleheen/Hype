@@ -5,12 +5,6 @@ export const id = {
   app: {
     description: 'Ubah Foto Anda dengan Kekuatan AI - Sambut Hype! editor foto lengkap Anda yang dirancang untuk meningkatkan kualitas foto produk Anda dengan keajaiban AI.',
   },
-  apiKey: {
-    title: "Buka Studio Profesional",
-    description: "Untuk menggunakan model Gemini 3 Pro canggih demi hasil gambar berkualitas tinggi, silakan pilih kunci API berbayar.",
-    button: "Pilih Kunci API",
-    billingLink: "Pelajari lebih lanjut tentang penagihan",
-  },
   footer: {
     back: 'Kembali',
     continue: 'Lanjutkan',
@@ -279,7 +273,8 @@ export const id = {
     cinematic_action: { name: 'Aksi Sinematik', description: 'Potret aksi sinematik, produk bergerak dengan kesan kecepatan, blur gerakan, dan pencahayaan dramatis berkontras tinggi.' },
     golden_hour_glow: { name: 'Cahaya Keemasan', description: 'Diterangi cahaya hangat, lembut, keemasan saat matahari terbenam atau terbit, menciptakan bayangan panjang dan lembut.' },
     blue_hour_mood: { name: 'Suasana Senja Biru', description: 'Difoto selama senja biru (setelah matahari terbenam), cahaya sejuk, lembut, ambien, dengan langit biru tua.' },
-    "top-down_geometric": { name: 'Geometris dari Atas', description: 'Flat lay dari atas dengan susunan properti dan bayangan geometris yang kuat.' },
+    // FIX: Quoted object key with a hyphen to make it a valid identifier.
+    'top-down_geometric': { name: 'Geometris dari Atas', description: 'Flat lay dari atas dengan susunan properti dan bayangan geometris yang kuat.' },
     floating_in_air: { name: 'Mengambang di Udara', description: 'Produk digantung atau melayang di udara, dengan bayangan lembut di bawahnya, latar belakang bersih dan sederhana.' },
     wrapped_in_fabric: { name: 'Terbungkus Kain', description: 'Dibalut atau dibungkus kain sutra atau satin yang mengalir, menciptakan garis-garis elegan dan tekstur lembut.' },
     on_a_bed_of_petals: { name: 'Di Atas Hamparan Kelopak Bunga', description: 'Berada di atas hamparan kelopak bunga segar (misalnya mawar, sakura), pencahayaan lembut dan romantis.' },
@@ -296,7 +291,8 @@ export const id = {
     on_a_cloud: { name: 'Di Atas Awan', description: 'Berada di atas awan lembut dan empuk dengan latar langit biru pucat, pencahayaan yang indah dan halus.' },
     retro_wave: { name: 'Gelombang Retro', description: 'Gaya gelombang retro 80-an, lanskap grid synthwave, matahari terbenam neon, nuansa krom dan magenta.' },
     claymation_style: { name: 'Gaya Claymation', description: 'Terlihat seperti cuplikan dari film claymation, semuanya terbuat dari tanah liat model, pencahayaan studio yang lembut.' },
-    "hand-drawn_sketch": { name: 'Sketsa Tangan', description: 'Produk adalah satu-satunya elemen realistis di dunia sketsa atau cetak biru yang digambar tangan.' },
+    // FIX: Quoted object key with a hyphen to make it a valid identifier.
+    'hand-drawn_sketch': { name: 'Sketsa Tangan', description: 'Produk adalah satu-satunya elemen realistis di dunia sketsa atau cetak biru yang digambar tangan.' },
     on_a_mirror_surface: { name: 'Di Atas Permukaan Cermin', description: 'Di atas cermin, menciptakan pantulan sempurna, dengan pola pencahayaan yang menarik atau latar belakang sederhana.' },
     infrared_photo_style: { name: 'Gaya Foto Inframerah', description: 'Menyimulasikan foto inframerah, di mana dedaunan berwarna putih dan langit gelap, sureal dan berkontras tinggi.' },
     long_exposure_light_trails: { name: 'Jejak Cahaya Eksposur Panjang', description: 'Produk tajam, tetapi dikelilingi oleh jejak cahaya artistik dari bidikan eksposur panjang.' },
